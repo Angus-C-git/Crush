@@ -271,11 +271,8 @@ void handle_error(char *error_desc){
     exit(1);
 }
 
-// YOU SHOULD NOT CHANGE CODE BELOW HERE
 
 // Lookup table for a simple Pearson hash
-// https://en.wikipedia.org/wiki/Pearson_hashing
-// This table contains an arbitrary permutation of integers 0..255
 
 const uint8_t crush_hash_table[256] = {
     241, 18,  181, 164, 92,  237, 100, 216, 183, 107, 2,   12,  43,  246, 90,
